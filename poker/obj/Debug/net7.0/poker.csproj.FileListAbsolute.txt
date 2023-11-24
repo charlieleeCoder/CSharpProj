@@ -1,0 +1,15 @@
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\bin\Debug\net7.0\poker.exe
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\bin\Debug\net7.0\poker.deps.json
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\bin\Debug\net7.0\poker.runtimeconfig.json
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\bin\Debug\net7.0\poker.dll
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\bin\Debug\net7.0\poker.pdb
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.csproj.AssemblyReference.cache
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.AssemblyInfoInputs.cache
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.AssemblyInfo.cs
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.csproj.CoreCompileInputs.cache
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.dll
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\refint\poker.dll
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.pdb
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\poker.genruntimeconfig.cache
+C:\Users\charl\OneDrive\Desktop\CSharpProjects\poker\obj\Debug\net7.0\ref\poker.dll
