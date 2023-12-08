@@ -8,7 +8,7 @@ namespace WritingToTextFiles
         static void Main()
         {
             // Specify the directory path
-            string directoryPath = @"C:\Users\charl\OneDrive\Desktop\CSharpProjects";
+            string directoryPath = @"C:\Users\charl\OneDrive\Desktop\CSharpProjects\";
 
             // Specify the file name
             string fileName = "example.txt";
@@ -24,6 +24,7 @@ namespace WritingToTextFiles
                     // Write content to the file
                     writer.WriteLine("Hello, world!");
                     writer.WriteLine("This is a sample text.");
+                    writer.WriteLine("And here's some more.");
                 }
 
                 Console.WriteLine("File has been written successfully to: " + filePath);
@@ -31,6 +32,22 @@ namespace WritingToTextFiles
             catch (Exception ex)
             {
                 Console.WriteLine("Error writing to the file: " + ex.Message);
+            }
+            try
+            {
+                using (var reader = new StreamReader(filePath))
+                {
+                    // Need to not throw away the null test
+                    string? line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error reading the file: " + ex.Message);
             }
         }
     }
