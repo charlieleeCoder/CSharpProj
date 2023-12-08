@@ -4,23 +4,29 @@ namespace poker
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            ArrayList deck = CreateDeck();
-            ArrayList shuffled = ShuffleDeck(deck);
-            ArrayList returnVal = PopCard(shuffled);
-            shuffled = (ArrayList)returnVal[0]!;
-            var card = (String)returnVal[1]!;
-            //foreach (string i in shuffled)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            // Creat ordered deck
+            var deck = CreateDeck();
+
+            // Shuffle cards
+            var shuffled = ShuffleDeck(deck);
+
+            // Return tuple
+            var returnVal = PopCard(shuffled);
+
+            // Not using the rest of the deck
+            //shuffled = returnVal.Item1;
+
+            // Random card
+            var card = returnVal.Item2;
+
             Console.WriteLine(card);
         }
-        static ArrayList CreateDeck()
+        static List<String> CreateDeck()
         {
             // Create empty collection
-            var ranks = new ArrayList();
+            var ranks = new List<String>();
 
             // Add the numeric cards
             for (int i = 2; i <= 10; i++)
@@ -29,13 +35,13 @@ namespace poker
             }
 
             // Better
-            ranks.AddRange(new ArrayList() { "Ace", "Jack", "Queen", "King" });
+            ranks.AddRange(new List<String> { "Ace", "Jack", "Queen", "King" });
 
             // Suits
-            var suits = new ArrayList() { "Clubs", "Hearts", "Diamonds", "Spades" };
+            var suits = new List<String> { "Clubs", "Hearts", "Diamonds", "Spades" };
 
             // Empty deck
-            var deck = new ArrayList();
+            var deck = new List<String>();
 
             // Append all suits of each rank
             foreach (string suit in suits)
@@ -49,7 +55,7 @@ namespace poker
             return deck;
         }
 
-        static ArrayList ShuffleDeck(ArrayList deck)
+        static List<String> ShuffleDeck(List<String> deck)
         {
             int length = deck.Count;
             var randGenerator = new Random();
@@ -65,7 +71,7 @@ namespace poker
             return deck;
         }
 
-        static ArrayList PopCard(ArrayList deck) 
+        static (List<String>, String) PopCard(List<String> deck) 
         {
             string card = "";
             if (deck.Count > 0)
@@ -73,7 +79,7 @@ namespace poker
                 card = deck[0]!.ToString()!;
             }
 
-            return new ArrayList() { deck, card };
+            return (deck, card);
         }
     }
 }
