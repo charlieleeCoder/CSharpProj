@@ -16,7 +16,7 @@ namespace poker
             var returnVal = PopCard(shuffled);
 
             // Not using the rest of the deck
-            //shuffled = returnVal.Item1;
+            // shuffled = returnVal.Item1;
 
             // Random card
             var card = returnVal.Item2;
