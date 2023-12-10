@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+//using HtmlAgilityPack;
 
 namespace WritingToTextFiles
 {
@@ -19,7 +20,7 @@ namespace WritingToTextFiles
             try
             {
                 // Use StreamWriter to write to the file
-                using (StreamWriter writer = new StreamWriter(filePath))
+                using (var writer = new StreamWriter(filePath))
                 {
                     // Write content to the file
                     writer.WriteLine("Hello, world!");

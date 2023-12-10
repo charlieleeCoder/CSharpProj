@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jKg5ZmXNxmWP6359mQ+TKI4WuJpO+r/zwDQRokXZIUeQjd6dAoqaFKJCwhJmA9qyaJnLrfr0qIRAB/wuLIRSvw==",
+  "dgSpecHash": "acU1pdNQa3++QNm2itP67X7yDtOpMBdf2Aq+6KskWQmcOPSgv8w6lqBOfH9ukDwIJ2oejJRL7mjW7awQ/Zgl8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WritingToTextFiles\\WritingToTextFiles.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\charl\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512"
+  ],
   "logs": []
 }
