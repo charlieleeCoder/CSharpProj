@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\poker\\poker.csproj": {}
+    "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WebScraperWork\\WebScraperWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\poker\\poker.csproj": {
+    "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WebScraperWork\\WebScraperWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\poker\\poker.csproj",
-        "projectName": "poker",
-        "projectPath": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\poker\\poker.csproj",
+        "projectUniqueName": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WebScraperWork\\WebScraperWork.csproj",
+        "projectName": "WebScraperWork",
+        "projectPath": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WebScraperWork\\WebScraperWork.csproj",
         "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\poker\\obj\\",
+        "outputPath": "C:\\Users\\charl\\OneDrive\\Desktop\\CSharpProjects\\WebScraperWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,14 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.59, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
