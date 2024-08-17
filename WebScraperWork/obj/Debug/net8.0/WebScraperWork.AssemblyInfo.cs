@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebScraperWork")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa61d11be61691037daf4396a46b898d064f4548")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e6ea498b9a5d390d50e527b84f4da82dbe2095d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebScraperWork")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebScraperWork")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
